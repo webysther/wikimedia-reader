@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title></title>
+
+  <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+
+  <link rel="import" href="bower_components/core-icons/core-icons.html">
+  <link rel="import" href="bower_components/core-icons/communication-icons.html">
+  <link rel="import" href="bower_components/core-toolbar/core-toolbar.html">
+  <link rel="import" href="bower_components/font-roboto/roboto.html">
+  <link rel="import" href="bower_components/paper-checkbox/paper-checkbox.html">
+  <link rel="import" href="bower_components/paper-toast/paper-toast.html">
+  <link rel="import" href="bower_components/core-selector/core-selector.html">
+  <link rel="import" href="bower_components/paper-shadow/paper-shadow.html">
+  <link rel="import" href="bower_components/paper-item/paper-item.html">
+  <link rel="import" href="bower_components/core-label/core-label.html">
+
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body unresolved>
+  <core-toolbar>
+    <span flex><div id="options_text"></div></span>
+  </core-toolbar>
+
+  <section>
+    <paper-checkbox id="automatic" class="blue"></paper-checkbox>
+  </section>
+
+  <section>
+    <ul class="list-group">
+      <li id="supported_list" class="list-group-item list-group-item-success">
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+            <a href="http://wikipedia.org" target="_blank" title="Wikipedia" class="thumbnail">
+              <img src="assets/logos/Wiki.png" alt="Wikipedia" class="img-wiki">
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+            <a href="http://wiktionary.org" target="_blank" title="Wiktionary" class="thumbnail">
+              <img src="assets/logos/Wiktionary.png" alt="Wiktionary" class="img-wiki">
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+            <a href="http://wikiquote.org" target="_blank" title="Wikiquote" class="thumbnail">
+              <img src="assets/logos/Wikiquote.png" alt="Wikiquote" class="img-wiki">
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+            <a href="http://wikibooks.org" target="_blank" title="Wikibooks" class="thumbnail">
+              <img src="assets/logos/Wikibooks.png" alt="Wikibooks" class="img-wiki">
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+            <a href="http://wikisource.org" target="_blank" title="Wikisource" class="thumbnail">
+              <img src="assets/logos/WikiSource.png" alt="Wikisource" class="img-wiki">
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+            <a href="http://wikinews.org" target="_blank" title="Wikinews" class="thumbnail">
+              <img src="assets/logos/WikiNews.png" alt="Wikinews" class="img-wiki">
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+            <a href="http://wikiversity.org" title="Wikiversity" target="_blank" class="thumbnail">
+              <img src="assets/logos/Wikiversity.png" alt="Wikiversity" class="img-wiki">
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+            <a href="http://species.wikimedia.org" title="Wikispecies" target="_blank" class="thumbnail">
+              <img src="assets/logos/Wikispecies.png" alt="Wikispecies" class="img-wiki">
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+            <a href="http://mediawiki.org" title="Mediawiki" target="_blank" class="thumbnail">
+              <img src="assets/logos/mediawiki.png" alt="Mediawiki" class="img-wiki">
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+            <a href="http://wikidata.org" title="Wikidata" target="_blank" class="thumbnail">
+              <img src="assets/logos/Wikidata.png" alt="Wikidata" class="img-wiki">
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+            <a href="http://commons.wikimedia.org" title="Wikimedia Commons" target="_blank" class="thumbnail">
+              <img src="assets/logos/Wiki-commons.png" alt="Wikimedia Commons" class="img-wiki">
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+            <a href="http://wikivoyage.org" title="Wikivoyage" target="_blank" class="thumbnail">
+              <img src="assets/logos/Wikivoyage.png" alt="Wikivoyage" class="img-wiki">
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+            <a href="http://meta.wikimedia.org" title="Meta-Wiki" target="_blank" class="thumbnail">
+              <img src="assets/logos/metaWiki.png" alt="Meta-Wiki" class="img-wiki">
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+            <a href="http://incubator.wikimedia.org" title="Wikimedia Incubator" target="_blank" class="thumbnail">
+              <img src="assets/logos/Wiki-incubador.png" alt="Wikimedia Incubator" class="img-wiki">
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+            <a href="http://wikitech.wikimedia.org" title="Wikimedia Labs" target="_blank" class="thumbnail">
+              <img src="assets/logos/wikilabs.png" alt="Wikimedia Labs" class="img-wiki">
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-2 col-lg-2">
+            <a href="http://wikimediafoundation.org" title="Wikimedia Fundation" target="_blank" class="thumbnail">
+              <img src="assets/logos/Wikimedia_Foundation.png" alt="Wikimedia Fundation" class="img-wiki">
+            </a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+      <paper-toast id="toast"></paper-toast>
+  </section>
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>

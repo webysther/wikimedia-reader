@@ -1,0 +1,30 @@
+{
+  "extName": {
+    "message": "Leitura Simples de Wiki",
+    "description" : "Nome da extensão"
+  },
+  "description": {
+    "message": "Permite ler wiki de forma limpa escondendo itens desnecessários",
+    "description" : "Descrição"
+  },
+  "tooltip": {
+    "message": "Mostrar/esconder itens da página",
+    "description" : "Aviso ao clicar no botão"
+  },
+  "options": {
+    "message": "Opções",
+    "description" : "Título da página de opções"
+  },
+  "automatic": {
+    "message": "Esconder automaticamente ao abrir uma página suportada?",
+    "description" : "Caixa de seleção"
+  },
+  "supported": {
+    "message": "Lista de wikis suportadas",
+    "description" : "Sítios suportados"
+  },
+  "optionSaved": {
+    "message": "Opção salva",
+    "description" : "Opção salva"
+  }
+}
