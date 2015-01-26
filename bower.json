@@ -1,7 +1,7 @@
 {
-  "name": "WikimediaLeituraLimpa",
+  "name": "Wikimedia Reader",
   "description": "Plugin para o chrome que remove itens desnecessários das wikis da wikimedia",
-  "homepage": "https://pt.wikipedia.org/wiki/Usu%C3%A1rio:Webysther",
+  "homepage": "https://github.com/Webysther/WikimediaReader",
   "keywords": [
     "wiki"
   ],
